@@ -43,7 +43,7 @@ class Food extends React.Component{
 } 
 
 handlePurchase = (event) => {
-      alert("hello")
+      alert("You have removed from list")
     var array1 = this.state.list.slice()
     var keynum = array1.findIndex((item)=> item.id == event.target.value ? true:false)
     array1[keynum].isPurchase = !array1[keynum].isPurchase
