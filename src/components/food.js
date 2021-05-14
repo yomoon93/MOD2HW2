@@ -14,7 +14,7 @@ class Food extends React.Component{
 
                 {
                     items:'peanut butter',
-                    units: '2',
+                    units: '2 ounces',
                     quantity:'2',
                     isPurchase:false,
                     id:0
@@ -22,7 +22,7 @@ class Food extends React.Component{
                 },
                 {
                     items:'eggs',
-                    units: '12',
+                    units: '12 dozen',
                     quantity:'2',
                     isPurchase:false,
                     id:1
@@ -30,7 +30,7 @@ class Food extends React.Component{
                 },
                 {
                     items:'milk',
-                    units: '2',
+                    units: '2 ounces',
                     quantity:'1',
                     isPurchase:false,
                     id:2 

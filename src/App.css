@@ -25,10 +25,13 @@ label {
 li{
     font-family: fantasy;
 }
+
 body{
     background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/grocery-shop-safely-1585329663.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*);
     background-repeat: no-repeat;
     justify-content: center;
-    display: flex;
-    
+    width:100vw;
+    height: 98vh;
+    border: solid 2px black;
+    background-position-x:center;
 }

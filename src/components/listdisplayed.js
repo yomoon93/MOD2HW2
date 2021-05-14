@@ -16,7 +16,7 @@ class DisplayList extends React.Component{
                 {filteredList.map((val)=>{
                     return(
                         <li key={val.id}>
-                            <div>{val.items}<br/>{val.units}<br/> {val.quantity}</div><button value={val.id} onClick={this.props.purchase}>Purchase</button>
+                            <div>Items: {val.items}<br/> Units: {val.units}<br/> Quantity: {val.quantity}</div><button value={val.id} onClick={this.props.purchase}>Purchase</button>
                         
                         </li>
 
