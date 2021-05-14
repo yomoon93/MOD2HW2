@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.list{
+list-style: none;
+ text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+    background-color: blue;
+    color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover{
+    background-color:purple;
+    color: white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label {
+    display: flex;
+    justify-content: center;
 }
-
-.App-link {
-  color: #61dafb;
+#me{
+    background-color: blue;
+    color:white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#me:hover{
+    background-color: purple;
+    color:white;
+}
+li{
+    font-family: fantasy;
+}
+body{
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/grocery-shop-safely-1585329663.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*);
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    
 }
