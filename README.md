@@ -1,6 +1,12 @@
 # Getting Started with Create React App
+If you're looking for a new house and dont want to use those "Other websites that are mainstream" you've come to the right place ZillowMoon is the website to use.
+This application will alow you to search for houses in the area of your choosing and find the right house for you, also after searching it allows 
+you to see the weather for the day to see if its worth visiting on that day. Also another feature implemented is the feature to save the houses you like :)
+APIs used:
+(https://rapidapi.com/apimaker/api/zillow-com1)
+(https://rapidapi.com/community/api/open-weather-map)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Things to fix: the styling needs to be better maybe adding a grid would setup everythinhg a little better, the information i'm displaying can be better.
 
 ## Available Scripts
 
